@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Varela+Round&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  background: #c5e6ec;
+  color: #316576;
+}
+
+.wrapper {
+  padding: 20px;
+  border-radius: 5px;
+  margin: 5px;
+  background: #c5e6ec;
+  box-shadow: 18px 18px 36px #a7c4c9, -18px -18px 36px #e3ffff;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+}
+
+.container > div {
+  width: 75px;
+  display: flex;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.btns {
+  display: flex;
+  margin-top: 20px;
+}
+
+.btn {
+  flex: 1;
+  height: 30px;
+  background: #fff;
+  border: 1px solid #bebebe;
+  color: #316576;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.laps {
+  max-height: 300px;
+  overflow: scroll;
+  margin-top: 20px;
+}
+
+.lap {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 35px;
+  gap: 10px;
+  padding: 0 5px;
+  background: #fff;
+  margin: 5px 0;
+}
+
+.lap > span {
+  margin-right: auto;
+  background: #316576;
+  color: #fff;
+  width: 25px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
